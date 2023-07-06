@@ -4,16 +4,18 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
 export default function RootLayout() {
+
+
   return (
     <Grid templateColumns="repeat(6, 1fr)" bg="gray.100">
       <GridItem
       as='aside'
       colSpan={{base:6, lg:2, xl:1}}
-      bg='purple.400'
+      bg='brand.500'
       minHeight={{lg:'100vh'}}
       p={{base:'20px', lg:'30px'}}
       >
-        <Sidebar/>
+        <Sidebar />
       </GridItem>
       <GridItem
       as='main'

@@ -1,5 +1,4 @@
-{
-  "tasks": [
+const taskList = [
     {
        "id":1,
        "title":"Fix the navbar",
@@ -71,4 +70,5 @@
        "img": "/img/yoshi.png"
     }
  ]
-}
+
+ export default taskList;
